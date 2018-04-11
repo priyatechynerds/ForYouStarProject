@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5dfba"
+    tools:context="com.example.priya.foryoustarproject.BankDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+   // bank 1
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="120dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank1"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="80dp"
+                    android:paddingBottom="10dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:id="@+id/idbi"/>
+                <TextView
+                    android:id="@+id/d_idbi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="Title"
+                    android:textSize="18dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="10dp"/>
+            </android.support.v7.widget.CardView>
+
+
+   // bank 2
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="90dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank2"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="60dp"
+                        android:paddingBottom="10dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/sbi"/>
+                    <TextView
+                        android:id="@+id/d_sbi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="Title"
+                        android:textSize="18dp"
+                        android:paddingTop="80dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"/>
+                </android.support.v7.widget.CardView>
+
+    // bank 3
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="120dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank3"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="80dp"
+                        android:paddingBottom="10dp"
+                        android:textAlignment="center"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/andhra"/>
+                    <TextView
+                        android:id="@+id/d_andhra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="Title"
+                        android:textSize="18dp"
+                        android:paddingTop="70dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"/>
+                </android.support.v7.widget.CardView>
+
+
+// bank 4
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="120dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="120dp"
+                        android:paddingBottom="10dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/boi"/>
+                    <TextView
+                        android:id="@+id/d_boi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:text="Title"
+                        android:textSize="18dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"/>
+                </android.support.v7.widget.CardView>
+
+
+// bank 5
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="120dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank5"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="80dp"
+                        android:paddingBottom="10dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/bandhan"/>
+                    <TextView
+                        android:id="@+id/d_bandhan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="Title"
+                        android:textSize="18dp"
+                        android:paddingTop="90dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"/>
+                </android.support.v7.widget.CardView>
+
+
+// bank 6
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="50dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank6"
+                        android:textStyle="bold"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="80dp"
+                        android:paddingBottom="10dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/paytm"/>
+                    <TextView
+                        android:id="@+id/d_paytm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="Title"
+                        android:textSize="18dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"/>
+                </android.support.v7.widget.CardView>
+
+
+// bank 7
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="bank no. 1"
+                        android:id="@+id/bank7"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="24dp"/>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="80dp"
+                        android:paddingBottom="10dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/airtel"/>
+                    <TextView
+                        android:id="@+id/d_airtel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:text="Title"
+                        android:textSize="18dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"/>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

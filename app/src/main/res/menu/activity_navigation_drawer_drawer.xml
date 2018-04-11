@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/company"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="COMPANY" />
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SUPPORT" />
+        <item
+            android:id="@+id/blogs"
+            android:icon="@mipmap/blog1"
+            android:title="BLOGS" />
+        <item
+            android:id="@+id/certificates"
+            android:icon="@mipmap/certificates"
+            android:title="CERIFICATES" />
+        <item
+            android:id="@+id/download"
+            android:icon="@drawable/ic_file_download1"
+            android:title="DOWNLOADS" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/website"
+                android:icon="@drawable/website"
+                android:title="Website" />
+            <item
+                android:id="@+id/team"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Management Team" />
+            <item
+                android:id="@+id/bank_details"
+                android:icon="@drawable/bank_icon"
+                android:title="Bank Details" />
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/bank_icon"
+                android:title="Login" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.priya.foryoustarproject.NavigationDrawer">
+
+    <android.support.design.widget.AppBarLayout
+        android:background="#f8df7b11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#f8df7b11"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+        <!--<android.support.design.widget.TabLayout-->
+            <!--app:tabMode="scrollable"-->
+            <!--android:id="@+id/tabs"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<android.support.design.widget.TabItem-->
+                <!--android:id="@+id/company"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="COMPANY"/>-->
+
+            <!--<android.support.design.widget.TabItem-->
+                <!--android:id="@+id/support"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="SUPPORT" />-->
+
+            <!--<android.support.design.widget.TabItem-->
+                <!--android:id="@+id/downloads"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="DOWNLOADS" />-->
+
+        <!--</android.support.design.widget.TabLayout>-->
+
+         <!--<RelativeLayout-->
+             <!--android:layout_width="match_parent"-->
+             <!--android:layout_height="wrap_content"-->
+             <!--android:layout_weight="0">-->
+
+             <!--<TextView-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"-->
+                 <!--android:text="CLICK TO KNOW US MORE"-->
+                 <!--android:textColor="#000000"-->
+                 <!--android:textSize="30sp"-->
+                 <!--android:id="@+id/title"-->
+                 <!--android:layout_centerInParent="true"/>-->
+         <!--</RelativeLayout>-->
+    <GridLayout
+        android:background="@drawable/bg3"
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="14dp"
+        android:id="@+id/mainGrid">
+
+        <!--row 1-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/upperCard1"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardBackgroundColor="#f8df7b11"-->
+            <!--android:layout_marginLeft="36dp"-->
+            <!--app:cardCornerRadius="10dp"-->
+            <!--android:layout_marginBottom="10dp">-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="34dp"
+                android:layout_marginRight="86dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="20dp"
+                app:cardElevation="40dp"
+                android:id="@+id/one"
+                app:cardCornerRadius="50dp">
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/company"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="   ABOUT COMPANY"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+    <!--</android.support.v7.widget.CardView>-->
+        <!--</RelativeLayout>-->
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/upperCard2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardBackgroundColor="#f8df7b11"-->
+            <!--android:layout_marginLeft="56dp"-->
+            <!--app:cardCornerRadius="10dp"-->
+            <!--android:layout_marginBottom="10dp">-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="34dp"
+                android:layout_marginRight="86dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="20dp"
+                app:cardElevation="40dp"
+                app:cardCornerRadius="50dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/support_img"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SUPPORT"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        <!--</android.support.v7.widget.CardView>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/upperCard3"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardBackgroundColor="#f8df7b11"-->
+            <!--android:layout_marginLeft="56dp"-->
+            <!--app:cardCornerRadius="10dp">-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="86dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="40dp"
+            app:cardCornerRadius="50dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_file_download1"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PLANS"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+       /elativeLayout>
+
+
+    </GridLayout>
+
+
+
+
+    <include layout="@layout/content_navigation_drawer" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</LinearLayout>

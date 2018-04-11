@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">For You Star Project</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_title">Description</string>
+
+
+    <!--Slide 1 Title & Description-->
+    <string name="slide_1_title">For You Star</string>
+    <string name="slide_1_desc">Established in 2014, “FORYOU” is India’s one of the fastest growing MLM Organisation.</string>
+
+    <!--Slide 2 Title & Description-->
+    <string name="slide_2_title">Business</string>
+    <string name="slide_2_desc">Opportunity to become LAKHPATI.</string>
+
+    <!--Slide 3 Title & Description-->
+    <string name="slide_3_title">Mobile and Dish Recharge</string>
+    <string name="slide_3_desc">Recharge your Mobile or Dish with us and Get assured cash back.</string>
+
+    <!--Slide 4 Title & Description-->
+    <string name="slide_4_title">Trip to Foreign</string>
+    <string name="slide_4_desc">Start your carrier with us and Win a trip to Goa.</string>
+
+    <!--Shared Preference-->
+    <string name="my_preference">com.abc.com.MyPref</string>
+    <string name="my_preference_key">com.abc.com.MyPrefKey</string>
+</resources>
